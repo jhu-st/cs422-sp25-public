@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MockATest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-01T18:41:56" hostname="DESKTOP-7ASSEIC" time="1.288">
+  <properties/>
+  <testcase name="testFunB1FunB2()" classname="MockATest" time="1.288"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

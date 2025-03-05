@@ -1,0 +1,13 @@
+Vtimestamp = 2025-02-17T14:03:01.629, ArrayUtilsPBT:countR1R2PositiveArrayNegative = 
+N                              |--------------------jqwik--------------------
+8tries = 1000                  | # of calls to property
+9checks = 1000                 | # of not rejected calls
+Cgeneration = RANDOMIZED       | parameters are randomly generated
+7after-failure = PREVIOUS_SEED | use the previous seed
+Cwhen-fixed-seed = ALLOW       | fixing the random seed is allowed
+9edge-cases#mode = MIXIN       | edge cases are mixed in
+>edge-cases#total = 20         | # of all combined edge cases
+Fedge-cases#tried = 20         | # of edge cases tried in current run
+Kseed = -6553005364442473256   | random seed to reproduce generated values
+
+

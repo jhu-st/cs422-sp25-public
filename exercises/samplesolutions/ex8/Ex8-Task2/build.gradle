@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id 'jacoco'
+    id 'info.solidsoft.pitest' version '1.5.2'
+}
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+pitest {
+    junit5PluginVersion = '0.15'
+    targetClasses = ['task2.*']  //by default "${project.group}.*"
+    targetTests = ['tests.*']
+    threads = 4
+    outputFormats = ['XML', 'HTML']
+    timestampedReports = false
+}
+
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation 'org.apache.commons:commons-lang3:3.11'
+}
+
+test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.ex10.MainPageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-03T19:20:15" hostname="DESKTOP-7ASSEIC" time="6.447">
+  <properties/>
+  <testcase name="test4()" classname="com.example.ex10.MainPageTest" time="6.447"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide 7.7.3 / Selenium 4.29.0 / chrome 133.0.6943.142 windows
+]]></system-err>
+</testsuite>
