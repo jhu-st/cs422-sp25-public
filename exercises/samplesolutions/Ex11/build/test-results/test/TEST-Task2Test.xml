@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Task2Test" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-03-14T17:24:41" hostname="DESKTOP-7ASSEIC" time="6.48">
+  <properties/>
+  <testcase name="DSCourseExists()" classname="Task2Test" time="5.516"/>
+  <testcase name="CSDepartmentExists()" classname="Task2Test" time="0.539"/>
+  <testcase name="postReqFails()" classname="Task2Test" time="0.424"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
